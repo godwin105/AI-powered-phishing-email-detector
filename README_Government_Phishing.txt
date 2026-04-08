@@ -39,6 +39,26 @@ This project demonstrates a machine learning-based system that detects phishing 
 
 3. Paste any email message into the box and press **"Analyze Email"** to classify it.
 
+## 🚀 Deployment
+
+### Heroku
+1. Create a Heroku app.
+2. Connect your GitHub repository.
+3. Deploy from the main branch.
+4. The Procfile will run `python -m app` to start the app.
+
+### Railway
+1. Create a Railway project.
+2. Connect your GitHub repository.
+3. Set the start command to: `python -m app`
+4. Deploy.
+
+### Render
+1. Create a Web Service on Render.
+2. Connect your GitHub repository.
+3. Set the start command to: `python -m app`
+4. Deploy.
+
 ## 🛡 Use Case
 
 This project aligns with the **NIST Cybersecurity Framework** and **Tanzania’s Data Protection Act (2022)** by providing:
