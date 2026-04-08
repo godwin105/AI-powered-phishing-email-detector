@@ -30,6 +30,9 @@ if st.button("Analyze Email"):
     st.success(result if prediction == 0 else "")
     st.error(result if prediction == 1 else "")
 
-if __name__ == "__main__":
+def main():
     import subprocess
     subprocess.run(["streamlit", "run", __file__])
+
+if __name__ == "__main__":
+    main()
