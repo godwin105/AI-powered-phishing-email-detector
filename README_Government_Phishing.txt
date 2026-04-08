@@ -6,7 +6,7 @@ This project demonstrates a machine learning-based system that detects phishing 
 
 - `government_emails.csv` — A dataset of 20 realistic emails (10 phishing, 10 legitimate), based on Tanzanian government communication patterns.
 - `phishing_detector_government.py` — Python script to train and test the phishing detection model.
-- `phishing_streamlit_government.py` — A Streamlit web app interface to test email messages interactively.
+- `app.py` — A Streamlit web app interface to test email messages interactively.
 
 ## 🧪 How to Run (Terminal Version)
 
@@ -33,7 +33,7 @@ This project demonstrates a machine learning-based system that detects phishing 
 
 2. Launch the web app:
    ```bash
-   streamlit run phishing_streamlit_government.py
+   streamlit run app.py
    ```
 
 3. Paste any email message into the box and press **"Analyze Email"** to classify it.
